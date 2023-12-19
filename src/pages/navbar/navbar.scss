@@ -1,0 +1,29 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1% 0;
+
+	.logo-container {
+		text-decoration: none;
+		color: inherit;
+
+		.logo {
+			width: 100px;
+			height: auto;
+		}
+	}
+
+	.link-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.link {
+			margin-left: 20px;
+			text-decoration: none;
+			color: black;
+			font-size: 20px;
+		}
+	}
+}
