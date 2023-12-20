@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { MenuItem } from '../menu-item/menu-item';
 import './directory.scss';
 
@@ -41,12 +41,7 @@ export const Directory = () => {
 	return (
 		<div className='directory'>
 			{categories.map((category) => (
-				<MenuItem
-					key={category.id}
-					title={category.title}
-					img={category.imageUrl}
-					size={category.size}
-				/>
+				<MenuItem key={category.id} category={category} />
 			))}
 		</div>
 	);
