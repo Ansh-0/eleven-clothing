@@ -12,7 +12,7 @@ A responsive e-commerce website developed using **ReactJS** for the frontend and
 ## Features
 
 - **Responsive Design:** The website is fully responsive, ensuring optimal user experience across various devices and screen sizes.
-- **User Authentication:** Implemented secure authentication using Firebase, allowing users to create accounts and log in using email or google accout and manage their profiles.
+- **User Authentication:** Implemented secure authentication using Firebase, allowing users to create accounts, log in and manage their profiles.
 - **Dynamic Shopping Cart:** Integrated a dynamic shopping cart system, enabling users to add, remove, and update items in their cart seamlessly.
 - **Firebase Backend:** Utilized Firebase for backend services, including real-time database, authentication, and hosting.
 
